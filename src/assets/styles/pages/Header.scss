@@ -1,0 +1,20 @@
+   header {
+       display: flex; // Aligner les éléments
+       justify-content: space-between; // Espace entre le titre et login/register
+       margin-top: 20px;
+       margin-bottom: 50px; // Marge du bas
+       align-items: center; // Centrer les élément sur la même ligne
+
+       .logo {
+
+           font-weight: bold; // Gras le nom du logo
+           font-size: 3rem;
+           color: white;
+       }
+
+       nav {
+           display: flex;
+           gap: 15px; // Espace entre login et register
+       }
+
+   }

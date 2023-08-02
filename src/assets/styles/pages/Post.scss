@@ -1,0 +1,59 @@
+.post {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 1px;
+    margin-bottom: 30px; // margin du bas pour chaque post
+
+    .image {
+        width: 90%;
+        height: 200px;
+        /* Hauteur fixe pour toutes les images */
+
+        img {
+            width: 100%;
+            border-radius: 5px; // Bordur arrondi sur l'image
+            height: 200px;
+            object-fit: cover;
+            /* Redimensionne l'image tout en conservant le ratio */
+        }
+    }
+
+    .texts {
+
+        h2 {
+            font-weight: bold;
+            margin: 0;
+            font-size: 1.8rem;
+
+        }
+
+
+
+
+        .info {
+            margin: 10px 0px; // 10px hauteur et bas 0px pour les côtés
+            font-size: 0.8rem;
+            display: flex;
+            gap: 10px; // Espace entre le nom et la date
+        }
+
+        .summary {
+            line-height: 1.3rem; // Hauteur des lignes
+        }
+
+
+    }
+
+}
+
+// Boutton éditer
+.edit-container {
+    text-align: center;
+
+    .edit-btn {
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        padding: 15px;
+    }
+}

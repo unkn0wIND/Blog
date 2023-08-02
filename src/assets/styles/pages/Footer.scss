@@ -1,0 +1,64 @@
+.footer {
+
+    max-width: 1500px; // Taille du footer comme le reste des containers du site
+    margin: 0 auto; // Pour centrer au millieu
+    padding: 40px 0;
+    border-top: 2px solid;
+    border-color: white;
+    //border-image: linear-gradient(to right, #BE5AF7, #165B91) 1 0 0 0; // Effet de gradient sur la bordure 
+    margin-top: 4em;
+
+
+    .social {
+        text-align: center;
+        padding-bottom: 25px;
+
+        a {
+            font-size: 2rem; // Taille de l'icone
+            border: 1px solid white;
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            padding-top: 5px; // Padding top à l'intérieur
+            text-align: center; // Aligner au centre
+            border-radius: 30%; // Arrondir les bordure
+            margin: 0 8px; // Margin de 8px sur les coté
+            opacity: 1;
+
+            &:hover {
+                transform: translateY(-5px); // Effet de mouvement en haut
+                transition: 0.2s; // Pour pas que l'effet soit brusque
+            }
+        }
+    }
+
+    ul {
+        margin-top: 0;
+        padding: 0;
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 0;
+        text-align: center; // Pour centrer les liens
+
+        li {
+            display: inline-block;
+            padding: 0 15px;
+        }
+
+        a {
+            &:hover {
+                color: #2a33ad;
+            }
+
+        }
+
+    }
+
+    .copyright {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+
+}

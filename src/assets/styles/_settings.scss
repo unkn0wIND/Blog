@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500&display=swap');
+
+$font: 'League Spartan', sans-serif; // Font officiel du site
+
+/* ---------- BASE ---------- */
+* {
+    margin: 0; // Pas de marge
+    padding: 0; // Pas de padding
+    box-sizing: border-box;
+    color: white;
+    font-family: $font;
+    scroll-behavior: smooth; // Pour avoir l'effet smooth sur les liens du navbar
+
+}
+
+//#0d043d
+
+body {
+    background: #000000;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+// Pour les citation
+blockquote {
+    background-color: rgb(78, 77, 77);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: fit-content; // Pour prendre la taille de l'élément
+}
+
+p {
+    word-wrap: break-word; // Pour que les mot soit couper si la fenetre est plus petite
+}

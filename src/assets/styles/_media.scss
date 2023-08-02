@@ -1,0 +1,298 @@
+/* IPHONE 14 */
+@media screen and (max-width: 428px) {
+    header .logo {
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: white;
+
+    }
+
+
+    .about h1 {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .about p {
+        text-align: center;
+        margin-top: 10%;
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .post {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    button.rainbow {
+        padding: 15px 20px;
+    }
+
+    .post-page h1 {
+        font-size: 1.3rem;
+    }
+
+    .post-page img {
+        width: 100%;
+    }
+
+    .modal-close {
+
+        top: 5px;
+    }
+}
+
+
+/* IPHONE 11 */
+@media screen and (max-width: 414px) {
+    header .logo {
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: white;
+
+    }
+
+
+    .about h1 {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .about p {
+        text-align: center;
+        margin-top: 10%;
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .post {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    button.rainbow {
+        padding: 15px 20px;
+    }
+
+    .post-page h1 {
+        font-size: 1.3rem;
+    }
+
+    .post-page img {
+        width: 100%;
+    }
+
+    .modal-close {
+
+        top: -4px;
+    }
+}
+
+/* ONEPLUS */
+@media screen and (max-width: 412px) {
+    header .logo {
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: white;
+
+    }
+
+
+    .about h1 {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .about p {
+        text-align: center;
+        margin-top: 10%;
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .post {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    button.rainbow {
+        padding: 15px 20px;
+    }
+
+    .post-page h1 {
+        font-size: 1.3rem;
+    }
+
+    .post-page img {
+        width: 100%;
+    }
+
+    .modal-close {
+
+        top: 16px;
+    }
+}
+
+/* GOOGLE PIXEL 5 */
+@media screen and (max-width: 393px) {
+    header .logo {
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: white;
+
+    }
+
+
+    .about h1 {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .about p {
+        text-align: center;
+        margin-top: 10%;
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .post {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    button.rainbow {
+        padding: 15px 20px;
+    }
+
+    .post-page h1 {
+        font-size: 1.3rem;
+    }
+
+    .post-page img {
+        width: 100%;
+    }
+}
+
+
+/* XIAOMI */
+@media screen and (max-width: 360px) {
+    header .logo {
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: white;
+
+    }
+
+
+    .about h1 {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .about p {
+        text-align: center;
+        margin-top: 10%;
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .post {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    button.rainbow {
+        padding: 15px 20px;
+    }
+
+    .post-page h1 {
+        font-size: 1.3rem;
+    }
+
+    .post-page img {
+        width: 100%;
+    }
+
+    .modal-close {
+
+        top: -15px;
+    }
+}
+
+
+/* IPHONE 5 */
+@media screen and (max-width: 320px) {
+    header .logo {
+        font-weight: bold;
+        font-size: 2rem;
+        color: white;
+    }
+
+    .about h1 {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .about p {
+        text-align: center;
+        margin-top: 10%;
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .post {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    button.rainbow {
+        padding: 10px 15px;
+    }
+
+    .post-page h1 {
+        font-size: 1.3rem;
+    }
+
+    .post-page img {
+        width: 100%;
+    }
+
+    .modal {
+
+        p {
+            font-size: 18px;
+
+        }
+
+        .modal-close {
+
+            top: -75px;
+        }
+
+    }
+
+
+
+
+
+
+}

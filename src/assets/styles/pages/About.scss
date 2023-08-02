@@ -1,0 +1,23 @@
+ .about {
+
+     min-height: 40vh;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     word-wrap: break-word;
+
+
+     h1 {
+         font-weight: bold;
+         font-size: 4rem;
+     }
+
+     p {
+         text-align: center;
+         margin-top: 2%;
+         line-height: 1.5rem;
+         font-size: 1.2rem;
+
+     }
+ }
